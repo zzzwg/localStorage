@@ -29,7 +29,7 @@ kits.appendDataIntoArray = function(key, obj) {
         arr = JSON.stringify(oldArr);
         localStorage.setItem(key, arr);
     }
-    /**
+    /*
      * 根据对应的id从localStorage中指定键(key)的数组中删除一条数据参数
      */
 kits.deleteLocalDataById = function(key, id) {
@@ -45,7 +45,7 @@ kits.deleteLocalDataById = function(key, id) {
     this.saveLocalDataArray(key, oldArr);
 }
 
-/**
+/*
  * 根据id修改localStorage里面的指定键(key)的数组数据参数
  */
 kits.modifyLocalDataById = function(key, id, data) {
