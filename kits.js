@@ -60,5 +60,5 @@ kits.modifyLocalDataById = function(key, id, data) {
         }
     })
     this.saveLocalDataArray(key, oldArr);
-    return flag;;
+    return flag;;;;
 }
