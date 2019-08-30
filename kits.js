@@ -1,4 +1,4 @@
-var kits = {};
+var kits = {};;;
 /*
 getLocalDataArray(key)  从localStorage里面根据指定的键(key)获取一个数组参数
 key：localStorage里面根据根据key存储的数据
@@ -31,7 +31,7 @@ kits.appendDataIntoArray = function(key, obj) {
     }
     /*
       根据对应的id从localStorage中指定键(key)的数组中删除一条数据参数
-     /
+     */
 kits.deleteLocalDataById = function(key, id) {
     // let oldArr = tool.getLocalDataArray(key);
     let oldArr = this.getLocalDataArray(key);
