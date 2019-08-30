@@ -1,4 +1,4 @@
-var kits = {};;;
+var kits = {};;
 /*
 getLocalDataArray(key)  从localStorage里面根据指定的键(key)获取一个数组参数
 key：localStorage里面根据根据key存储的数据
